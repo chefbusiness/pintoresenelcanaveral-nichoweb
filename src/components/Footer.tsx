@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Phone, Mail, MapPin } from 'lucide-react';
+import { Phone, Mail, MapPin, Coffee } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -57,7 +57,20 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-gray-800 pt-6 text-center text-gray-400">
-          <p>© {new Date().getFullYear()} Pintores El Cañaveral. Todos los derechos reservados.</p>
+          <p className="flex items-center justify-center gap-2 flex-wrap">
+            <span>© {new Date().getFullYear()} Pintores El Cañaveral. Todos los derechos reservados.</span>
+            <span className="flex items-center gap-1">
+              Desarrollado con muchos <Coffee size={16} className="inline" /> por{' '}
+              <a 
+                href="https://localseoads.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:text-white transition-colors"
+              >
+                LocalSEOAds.com
+              </a>
+            </span>
+          </p>
         </div>
       </div>
     </footer>
