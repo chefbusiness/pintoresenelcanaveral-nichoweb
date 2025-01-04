@@ -13,10 +13,25 @@ const ContactForm = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    
+    // Crear el formulario para enviar
+    const form = e.target as HTMLFormElement;
+    const formAction = "https://formsubmit.co/info@pintoreselcanaveral.com";
+    
+    // Configurar el formulario
+    form.action = formAction;
+    form.method = "POST";
+    
+    // Enviar el formulario
+    form.submit();
+
+    // Mostrar mensaje de éxito
     toast({
       title: "Formulario enviado",
       description: "Nos pondremos en contacto contigo lo antes posible.",
     });
+
+    // Limpiar el formulario
     setFormData({
       nombre: '',
       email: '',
@@ -28,6 +43,14 @@ const ContactForm = () => {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-6 max-w-xl mx-auto">
+      {/* Campo oculto para evitar spam */}
+      <input type="text" name="_honey" style={{ display: 'none' }} />
+      
+      {/* Configuración de FormSubmit */}
+      <input type="hidden" name="_template" value="table" />
+      <input type="hidden" name="_subject" value="Nuevo contacto desde la web" />
+      <input type="hidden" name="_next" value={window.location.href} />
+
       <div>
         <label htmlFor="nombre" className="block text-sm font-medium text-gray-700 mb-1">
           Nombre completo *
@@ -35,6 +58,7 @@ const ContactForm = () => {
         <input
           type="text"
           id="nombre"
+          name="nombre"
           required
           className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
           value={formData.nombre}
@@ -49,6 +73,7 @@ const ContactForm = () => {
         <input
           type="email"
           id="email"
+          name="email"
           required
           className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
           value={formData.email}
@@ -63,6 +88,7 @@ const ContactForm = () => {
         <input
           type="tel"
           id="telefono"
+          name="telefono"
           required
           className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
           value={formData.telefono}
@@ -76,6 +102,7 @@ const ContactForm = () => {
         </label>
         <select
           id="servicio"
+          name="servicio"
           className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
           value={formData.servicio}
           onChange={(e) => setFormData({...formData, servicio: e.target.value})}
@@ -101,6 +128,7 @@ const ContactForm = () => {
         </label>
         <textarea
           id="mensaje"
+          name="mensaje"
           rows={4}
           className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
           value={formData.mensaje}
