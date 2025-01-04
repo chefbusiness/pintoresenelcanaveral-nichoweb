@@ -16,7 +16,7 @@ const Footer = () => {
             <h3 className="text-xl font-semibold mb-4">Servicios Particulares</h3>
             <div className="space-y-2 text-gray-400">
               <p><Link to="/servicios/garajes" className="hover:text-white transition-colors">Pintores de Garajes</Link></p>
-              {/* Aquí irán más enlaces cuando creemos las otras páginas */}
+              <p><Link to="/servicios/fachadas" className="hover:text-white transition-colors">Pintores de Fachadas</Link></p>
             </div>
           </div>
           <div>

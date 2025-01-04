@@ -29,7 +29,9 @@ const Header = () => {
                       <Link to="/servicios/garajes" className="block p-3 hover:bg-gray-100 rounded-lg">
                         Pintores de Garajes
                       </Link>
-                      {/* Aquí irán más enlaces cuando creemos las otras páginas */}
+                      <Link to="/servicios/fachadas" className="block p-3 hover:bg-gray-100 rounded-lg">
+                        Pintores de Fachadas
+                      </Link>
                     </div>
                   </NavigationMenuContent>
                 </NavigationMenuItem>
