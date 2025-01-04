@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Check } from 'lucide-react';
+import { Helmet } from 'react-helmet-async';
 import ServiceList from '@/components/ServiceList';
 import TestimonialCard from '@/components/TestimonialCard';
 
@@ -26,7 +27,56 @@ const Index = () => {
   ];
 
   return (
-    <div className="animate-fade-in">
+    <>
+      <Helmet>
+        <title>Pintores en El Cañaveral | Servicios Profesionales de Pintura en Madrid</title>
+        <meta name="description" content="Servicios profesionales de pintura en El Cañaveral, Madrid. Especialistas en pintura de interiores, exteriores, fachadas y comunidades. Presupuesto sin compromiso." />
+        <meta name="keywords" content="pintores El Cañaveral, pintura Madrid, servicios de pintura, pintores profesionales, pintura interiores, pintura exteriores" />
+        <meta property="og:title" content="Pintores en El Cañaveral | Servicios Profesionales de Pintura" />
+        <meta property="og:description" content="Servicios profesionales de pintura en El Cañaveral, Madrid. Especialistas en pintura de interiores, exteriores, fachadas y comunidades." />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="es_ES" />
+        <link rel="canonical" href="https://pintoreselcanaveral.com" />
+        
+        {/* Schema.org markup para negocio local */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Pintores El Cañaveral",
+            "image": "https://pintoreselcanaveral.com/og-image.png",
+            "description": "Servicios profesionales de pintura en El Cañaveral, Madrid. Especialistas en pintura de interiores, exteriores, fachadas y comunidades.",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "El Cañaveral",
+              "addressLocality": "Madrid",
+              "postalCode": "28052",
+              "addressCountry": "ES"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 40.4378698,
+              "longitude": -3.5797773
+            },
+            "url": "https://pintoreselcanaveral.com",
+            "telephone": "+34744717942",
+            "priceRange": "€€",
+            "openingHoursSpecification": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+              ],
+              "opens": "09:00",
+              "closes": "18:00"
+            }
+          })}
+        </script>
+      </Helmet>
+      <div className="animate-fade-in">
       {/* Hero Section */}
       <section className="bg-primary text-white py-20">
         <div className="container-custom">
@@ -113,7 +163,8 @@ const Index = () => {
           </Link>
         </div>
       </section>
-    </div>
+      </div>
+    </>
   );
 };
 
