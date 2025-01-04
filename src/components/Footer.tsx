@@ -24,6 +24,10 @@ const Footer = () => {
             <h3 className="text-xl font-semibold mb-4">Contacto</h3>
             <div className="space-y-2 text-gray-400">
               <p className="flex items-center gap-2">
+                <Phone size={18} />
+                <a href="tel:744717942">744 717 942</a>
+              </p>
+              <p className="flex items-center gap-2">
                 <Mail size={18} />
                 <a href="mailto:info@pintoreselcanaveral.pro">info@pintoreselcanaveral.pro</a>
               </p>

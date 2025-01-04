@@ -144,7 +144,7 @@ const IndustrialPainting = () => {
             <Link to="/contacto" className="bg-white text-primary hover:bg-gray-100 font-semibold py-3 px-8 rounded-lg transition-colors duration-300">
               Solicitar Presupuesto
             </Link>
-            <a href="tel:+34600000000" className="border-2 border-white text-white hover:bg-white/10 font-semibold py-3 px-8 rounded-lg transition-colors duration-300">
+            <a href="tel:744717942" className="border-2 border-white text-white hover:bg-white/10 font-semibold py-3 px-8 rounded-lg transition-colors duration-300">
               Llamar Ahora
             </a>
           </div>
