@@ -42,6 +42,14 @@ const Header = () => {
               onOpenChange={setIsServicesOpen}
               onLinkClick={handleLinkClick}
             />
+            <a 
+              href="https://blog.pintoreselcanaveral.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="font-medium hover:text-primary transition-colors"
+            >
+              Blog
+            </a>
             <Link to="/contacto" className="btn-primary">
               Solicitar Presupuesto
             </Link>

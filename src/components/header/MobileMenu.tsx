@@ -56,6 +56,15 @@ const MobileMenu = ({ isOpen, onLinkClick }: MobileMenuProps) => {
               Pintores de Chalets
             </Link>
           </div>
+          <a 
+            href="https://blog.pintoreselcanaveral.com" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="block font-medium hover:text-primary transition-colors"
+            onClick={onLinkClick}
+          >
+            Blog
+          </a>
           <Link 
             to="/contacto" 
             className="block btn-primary text-center"

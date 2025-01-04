@@ -43,6 +43,16 @@ const Footer = () => {
               <p><Link to="/" className="hover:text-white transition-colors">Inicio</Link></p>
               <p><Link to="/servicios" className="hover:text-white transition-colors">Servicios</Link></p>
               <p><Link to="/contacto" className="hover:text-white transition-colors">Contacto</Link></p>
+              <p>
+                <a 
+                  href="https://blog.pintoreselcanaveral.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition-colors"
+                >
+                  Blog
+                </a>
+              </p>
             </div>
           </div>
         </div>
