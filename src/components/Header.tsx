@@ -13,6 +13,10 @@ import { useState } from 'react';
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const handleLinkClick = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
       <nav className="container-custom py-4">
@@ -36,7 +40,7 @@ const Header = () => {
                 <Link 
                   to="/" 
                   className="block font-medium hover:text-primary transition-colors"
-                  onClick={() => setIsMenuOpen(false)}
+                  onClick={handleLinkClick}
                 >
                   Inicio
                 </Link>
@@ -45,77 +49,77 @@ const Header = () => {
                   <Link 
                     to="/servicios/garajes" 
                     className="block pl-4 py-2 hover:text-primary"
-                    onClick={() => setIsMenuOpen(false)}
+                    onClick={handleLinkClick}
                   >
                     Pintores de Garajes
                   </Link>
                   <Link 
                     to="/servicios/fachadas" 
                     className="block pl-4 py-2 hover:text-primary"
-                    onClick={() => setIsMenuOpen(false)}
+                    onClick={handleLinkClick}
                   >
                     Pintores de Fachadas
                   </Link>
                   <Link 
                     to="/servicios/comunidades" 
                     className="block pl-4 py-2 hover:text-primary"
-                    onClick={() => setIsMenuOpen(false)}
+                    onClick={handleLinkClick}
                   >
                     Pintores de Comunidades
                   </Link>
                   <Link 
                     to="/servicios/oficinas" 
                     className="block pl-4 py-2 hover:text-primary"
-                    onClick={() => setIsMenuOpen(false)}
+                    onClick={handleLinkClick}
                   >
                     Pintores de Oficinas
                   </Link>
                   <Link 
                     to="/servicios/locales" 
                     className="block pl-4 py-2 hover:text-primary"
-                    onClick={() => setIsMenuOpen(false)}
+                    onClick={handleLinkClick}
                   >
                     Pintores de Locales Comerciales
                   </Link>
                   <Link 
                     to="/servicios/naves" 
                     className="block pl-4 py-2 hover:text-primary"
-                    onClick={() => setIsMenuOpen(false)}
+                    onClick={handleLinkClick}
                   >
                     Pintores de Naves Industriales
                   </Link>
                   <Link 
                     to="/servicios/restaurantes" 
                     className="block pl-4 py-2 hover:text-primary"
-                    onClick={() => setIsMenuOpen(false)}
+                    onClick={handleLinkClick}
                   >
                     Pintores de Restaurantes
                   </Link>
                   <Link 
                     to="/servicios/pisos" 
                     className="block pl-4 py-2 hover:text-primary"
-                    onClick={() => setIsMenuOpen(false)}
+                    onClick={handleLinkClick}
                   >
                     Pintores de Pisos
                   </Link>
                   <Link 
                     to="/servicios/viviendas" 
                     className="block pl-4 py-2 hover:text-primary"
-                    onClick={() => setIsMenuOpen(false)}
+                    onClick={handleLinkClick}
                   >
                     Pintores de Viviendas
                   </Link>
                   <Link 
                     to="/servicios/adosados" 
                     className="block pl-4 py-2 hover:text-primary"
-                    onClick={() => setIsMenuOpen(false)}
+                    onClick={handleLinkClick}
                   >
                     Pintores de Adosados
                   </Link>
                   <Link 
                     to="/servicios/chalets" 
                     className="block pl-4 py-2 hover:text-primary"
-                    onClick={() => setIsMenuOpen(false)}
+                    onClick={handleLinkClick}
                   >
                     Pintores de Chalets
                   </Link>
@@ -123,7 +127,7 @@ const Header = () => {
                 <Link 
                   to="/contacto" 
                   className="block btn-primary text-center"
-                  onClick={() => setIsMenuOpen(false)}
+                  onClick={handleLinkClick}
                 >
                   Solicitar Presupuesto
                 </Link>
