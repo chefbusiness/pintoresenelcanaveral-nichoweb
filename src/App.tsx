@@ -14,6 +14,11 @@ import CommunitiesPainting from "./pages/services/CommunitiesPainting";
 import OfficePainting from "./pages/services/OfficePainting";
 import CommercialPainting from "./pages/services/CommercialPainting";
 import IndustrialPainting from "./pages/services/IndustrialPainting";
+import RestaurantsPainting from "./pages/services/RestaurantsPainting";
+import ApartmentsPainting from "./pages/services/ApartmentsPainting";
+import HousesPainting from "./pages/services/HousesPainting";
+import TownhousesPainting from "./pages/services/TownhousesPainting";
+import VillasPainting from "./pages/services/VillasPainting";
 
 const queryClient = new QueryClient();
 
@@ -36,6 +41,11 @@ const App = () => (
               <Route path="/servicios/oficinas" element={<OfficePainting />} />
               <Route path="/servicios/locales" element={<CommercialPainting />} />
               <Route path="/servicios/naves" element={<IndustrialPainting />} />
+              <Route path="/servicios/restaurantes" element={<RestaurantsPainting />} />
+              <Route path="/servicios/pisos" element={<ApartmentsPainting />} />
+              <Route path="/servicios/viviendas" element={<HousesPainting />} />
+              <Route path="/servicios/adosados" element={<TownhousesPainting />} />
+              <Route path="/servicios/chalets" element={<VillasPainting />} />
             </Routes>
           </main>
           <Footer />

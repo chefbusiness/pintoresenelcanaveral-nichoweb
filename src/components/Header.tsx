@@ -82,6 +82,41 @@ const Header = () => {
                 >
                   Pintores de Naves Industriales
                 </Link>
+                <Link 
+                  to="/servicios/restaurantes" 
+                  className="block pl-4 py-2 hover:text-primary"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  Pintores de Restaurantes
+                </Link>
+                <Link 
+                  to="/servicios/pisos" 
+                  className="block pl-4 py-2 hover:text-primary"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  Pintores de Pisos
+                </Link>
+                <Link 
+                  to="/servicios/viviendas" 
+                  className="block pl-4 py-2 hover:text-primary"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  Pintores de Viviendas
+                </Link>
+                <Link 
+                  to="/servicios/adosados" 
+                  className="block pl-4 py-2 hover:text-primary"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  Pintores de Adosados
+                </Link>
+                <Link 
+                  to="/servicios/chalets" 
+                  className="block pl-4 py-2 hover:text-primary"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  Pintores de Chalets
+                </Link>
               </div>
               <Link 
                 to="/contacto" 
@@ -121,6 +156,21 @@ const Header = () => {
                       </Link>
                       <Link to="/servicios/naves" className="block p-3 hover:bg-gray-100 rounded-lg">
                         Pintores de Naves Industriales
+                      </Link>
+                      <Link to="/servicios/restaurantes" className="block p-3 hover:bg-gray-100 rounded-lg">
+                        Pintores de Restaurantes
+                      </Link>
+                      <Link to="/servicios/pisos" className="block p-3 hover:bg-gray-100 rounded-lg">
+                        Pintores de Pisos
+                      </Link>
+                      <Link to="/servicios/viviendas" className="block p-3 hover:bg-gray-100 rounded-lg">
+                        Pintores de Viviendas
+                      </Link>
+                      <Link to="/servicios/adosados" className="block p-3 hover:bg-gray-100 rounded-lg">
+                        Pintores de Adosados
+                      </Link>
+                      <Link to="/servicios/chalets" className="block p-3 hover:bg-gray-100 rounded-lg">
+                        Pintores de Chalets
                       </Link>
                     </div>
                   </NavigationMenuContent>
