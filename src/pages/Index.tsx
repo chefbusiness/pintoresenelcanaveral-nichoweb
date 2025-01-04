@@ -1,9 +1,32 @@
 import { Link } from 'react-router-dom';
 import { Check } from 'lucide-react';
+import ServiceList from '@/components/ServiceList';
+import TestimonialCard from '@/components/TestimonialCard';
 
 const Index = () => {
+  const testimonials = [
+    {
+      name: "Carlos Martínez",
+      rating: 5,
+      text: "Excelente trabajo en la pintura de mi piso en El Cañaveral. Muy profesionales y puntuales.",
+      service: "Pintura Interior"
+    },
+    {
+      name: "Laura Sánchez",
+      rating: 5,
+      text: "Transformaron la fachada de nuestra comunidad. El resultado es espectacular.",
+      service: "Pintura Exterior"
+    },
+    {
+      name: "Miguel Ángel García",
+      rating: 5,
+      text: "Gran trabajo con el papel pintado. Quedó perfecto y en el tiempo acordado.",
+      service: "Papel Pintado"
+    }
+  ];
+
   return (
-    <div>
+    <div className="animate-fade-in">
       {/* Hero Section */}
       <section className="bg-primary text-white py-20">
         <div className="container-custom">
@@ -25,40 +48,24 @@ const Index = () => {
       <section className="py-16 bg-gray-50">
         <div className="container-custom">
           <h2 className="section-title text-center">Nuestros Servicios</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold mb-4">Pintura Interior</h3>
-              <p className="text-gray-600 mb-4">
-                Renovamos el interior de tu hogar con las últimas tendencias y acabados de calidad.
-              </p>
-              <Link to="/servicios" className="text-primary hover:text-primary-dark font-medium">
-                Saber más →
-              </Link>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold mb-4">Pintura Exterior</h3>
-              <p className="text-gray-600 mb-4">
-                Protegemos y embellecemos la fachada de tu vivienda con materiales duraderos.
-              </p>
-              <Link to="/servicios" className="text-primary hover:text-primary-dark font-medium">
-                Saber más →
-              </Link>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold mb-4">Pintura Decorativa</h3>
-              <p className="text-gray-600 mb-4">
-                Creamos espacios únicos con técnicas decorativas especiales.
-              </p>
-              <Link to="/servicios" className="text-primary hover:text-primary-dark font-medium">
-                Saber más →
-              </Link>
-            </div>
+          <ServiceList />
+        </div>
+      </section>
+
+      {/* Testimonios Section */}
+      <section className="py-16 bg-white">
+        <div className="container-custom">
+          <h2 className="section-title text-center mb-12">Lo que dicen nuestros clientes</h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            {testimonials.map((testimonial, index) => (
+              <TestimonialCard key={index} {...testimonial} />
+            ))}
           </div>
         </div>
       </section>
 
       {/* Por qué elegirnos */}
-      <section className="py-16">
+      <section className="py-16 bg-gray-50">
         <div className="container-custom">
           <h2 className="section-title text-center">¿Por qué elegirnos?</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
