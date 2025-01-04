@@ -3,7 +3,6 @@ import {
   NavigationMenu,
   NavigationMenuContent,
   NavigationMenuItem,
-  NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
@@ -31,6 +30,9 @@ const Header = () => {
                       </Link>
                       <Link to="/servicios/fachadas" className="block p-3 hover:bg-gray-100 rounded-lg">
                         Pintores de Fachadas
+                      </Link>
+                      <Link to="/servicios/comunidades" className="block p-3 hover:bg-gray-100 rounded-lg">
+                        Pintores de Comunidades
                       </Link>
                     </div>
                   </NavigationMenuContent>
