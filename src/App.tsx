@@ -12,6 +12,7 @@ import GaragesPainting from "./pages/services/GaragesPainting";
 import FacadesPainting from "./pages/services/FacadesPainting";
 import CommunitiesPainting from "./pages/services/CommunitiesPainting";
 import OfficePainting from "./pages/services/OfficePainting";
+import CommercialPainting from "./pages/services/CommercialPainting";
 
 const queryClient = new QueryClient();
 
@@ -32,6 +33,7 @@ const App = () => (
               <Route path="/servicios/fachadas" element={<FacadesPainting />} />
               <Route path="/servicios/comunidades" element={<CommunitiesPainting />} />
               <Route path="/servicios/oficinas" element={<OfficePainting />} />
+              <Route path="/servicios/locales" element={<CommercialPainting />} />
             </Routes>
           </main>
           <Footer />

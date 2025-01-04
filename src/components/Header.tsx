@@ -37,6 +37,9 @@ const Header = () => {
                       <Link to="/servicios/oficinas" className="block p-3 hover:bg-gray-100 rounded-lg">
                         Pintores de Oficinas
                       </Link>
+                      <Link to="/servicios/locales" className="block p-3 hover:bg-gray-100 rounded-lg">
+                        Pintores de Locales Comerciales
+                      </Link>
                     </div>
                   </NavigationMenuContent>
                 </NavigationMenuItem>
