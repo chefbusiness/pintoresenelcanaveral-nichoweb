@@ -119,6 +119,7 @@ const ContactForm = () => {
           <option>Pintura Industrial</option>
           <option>Pintura Comercial</option>
           <option>Pintura Decorativa</option>
+          <option>Otros Servicios de Pintura</option>
         </select>
       </div>
 
