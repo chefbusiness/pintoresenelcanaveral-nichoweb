@@ -2,7 +2,6 @@ import { Home, CheckCircle2 } from 'lucide-react';
 import ServiceDetailHero from '@/components/ServiceDetailHero';
 import { Link } from 'react-router-dom';
 import TestimonialCard from '@/components/TestimonialCard';
-import SEO from '@/components/SEO';
 
 const VillasPainting = () => {
   const benefits = [
@@ -37,11 +36,6 @@ const VillasPainting = () => {
 
   return (
     <div className="animate-fade-in">
-      <SEO 
-        title="Pintores de Chalets en El Cañaveral"
-        description="Servicios profesionales de pintura para chalets y villas en El Cañaveral, Madrid. Acabados premium y atención personalizada. Solicite presupuesto sin compromiso."
-      />
-      
       <ServiceDetailHero
         title="Pintores de Chalets en El Cañaveral"
         description="Servicios profesionales de pintura para chalets y villas. Acabados premium y atención personalizada."

@@ -2,7 +2,6 @@ import { Building2, CheckCircle2, Clock } from 'lucide-react';
 import ServiceDetailHero from '@/components/ServiceDetailHero';
 import { Link } from 'react-router-dom';
 import TestimonialCard from '@/components/TestimonialCard';
-import SEO from '@/components/SEO';
 
 const CommercialPainting = () => {
   const benefits = [
@@ -37,11 +36,6 @@ const CommercialPainting = () => {
 
   return (
     <div className="animate-fade-in">
-      <SEO 
-        title="Pintores de Locales Comerciales en El Cañaveral"
-        description="Servicios profesionales de pintura para locales comerciales en El Cañaveral, Madrid. Transformamos su espacio comercial con acabados de calidad y mínima interrupción del negocio. Presupuesto gratuito."
-      />
-      
       <ServiceDetailHero
         title="Pintores de Locales Comerciales en El Cañaveral"
         description="Servicios profesionales de pintura para locales comerciales. Transformamos su espacio comercial con acabados de calidad y mínima interrupción del negocio."

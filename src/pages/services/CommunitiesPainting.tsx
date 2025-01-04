@@ -2,7 +2,6 @@ import { Users, CheckCircle2, Clock, PaintBucket } from 'lucide-react';
 import ServiceDetailHero from '@/components/ServiceDetailHero';
 import { Link } from 'react-router-dom';
 import TestimonialCard from '@/components/TestimonialCard';
-import SEO from '@/components/SEO';
 
 const CommunitiesPainting = () => {
   const benefits = [
@@ -37,11 +36,6 @@ const CommunitiesPainting = () => {
 
   return (
     <div className="animate-fade-in">
-      <SEO 
-        title="Pintores de Comunidades en El Cañaveral"
-        description="Especialistas en pintura de zonas comunes, escaleras, portales y garajes comunitarios en El Cañaveral, Madrid. Servicio profesional adaptado a las necesidades de su comunidad. Solicite presupuesto gratuito."
-      />
-      
       <ServiceDetailHero
         title="Pintores de Comunidades en El Cañaveral"
         description="Especialistas en pintura de zonas comunes, escaleras, portales y garajes comunitarios. Servicio profesional adaptado a las necesidades de su comunidad."

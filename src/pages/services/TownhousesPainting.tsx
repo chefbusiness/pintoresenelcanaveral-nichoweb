@@ -2,7 +2,6 @@ import { Home, CheckCircle2 } from 'lucide-react';
 import ServiceDetailHero from '@/components/ServiceDetailHero';
 import { Link } from 'react-router-dom';
 import TestimonialCard from '@/components/TestimonialCard';
-import SEO from '@/components/SEO';
 
 const TownhousesPainting = () => {
   const benefits = [
@@ -37,11 +36,6 @@ const TownhousesPainting = () => {
 
   return (
     <div className="animate-fade-in">
-      <SEO 
-        title="Pintores de Adosados en El Cañaveral"
-        description="Servicios profesionales de pintura para casas adosadas en El Cañaveral, Madrid. Coordinación eficiente y acabados uniformes. Presupuesto gratuito y sin compromiso."
-      />
-      
       <ServiceDetailHero
         title="Pintores de Adosados en El Cañaveral"
         description="Servicios profesionales de pintura para casas adosadas. Coordinación eficiente y acabados uniformes."

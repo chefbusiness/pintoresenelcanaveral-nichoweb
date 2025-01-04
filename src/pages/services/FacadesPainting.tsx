@@ -2,7 +2,6 @@ import { Building2 } from 'lucide-react';
 import ServiceDetailHero from '@/components/ServiceDetailHero';
 import TestimonialCard from '@/components/TestimonialCard';
 import { Link } from 'react-router-dom';
-import SEO from '@/components/SEO';
 
 const FacadesPainting = () => {
   const testimonials = [
@@ -22,11 +21,6 @@ const FacadesPainting = () => {
 
   return (
     <div className="animate-fade-in">
-      <SEO 
-        title="Pintores de Fachadas en El Cañaveral"
-        description="Especialistas en pintura y rehabilitación de fachadas en El Cañaveral, Madrid. Mejoramos el aspecto y la protección de tu edificio con acabados profesionales y duraderos. Presupuesto sin compromiso."
-      />
-      
       <ServiceDetailHero
         title="Pintores de Fachadas en El Cañaveral"
         description="Especialistas en pintura y rehabilitación de fachadas. Mejoramos el aspecto y la protección de tu edificio con acabados profesionales y duraderos."

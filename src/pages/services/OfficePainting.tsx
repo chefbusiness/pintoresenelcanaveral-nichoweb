@@ -1,8 +1,7 @@
-import { Building2, PaintBucket, CheckCircle2, Clock } from 'lucide-react';
+import { PaintBucket, Building2, CheckCircle2, Clock } from 'lucide-react';
 import ServiceDetailHero from '@/components/ServiceDetailHero';
 import { Link } from 'react-router-dom';
 import TestimonialCard from '@/components/TestimonialCard';
-import SEO from '@/components/SEO';
 
 const OfficePainting = () => {
   const benefits = [
@@ -37,11 +36,6 @@ const OfficePainting = () => {
 
   return (
     <div className="animate-fade-in">
-      <SEO 
-        title="Pintores de Oficinas en El Cañaveral"
-        description="Servicios profesionales de pintura para oficinas y espacios de trabajo en El Cañaveral, Madrid. Transformamos su entorno laboral con acabados de calidad y mínima interrupción. Presupuesto gratuito."
-      />
-      
       <ServiceDetailHero
         title="Pintores de Oficinas en El Cañaveral"
         description="Servicios profesionales de pintura para oficinas y espacios de trabajo. Transformamos su entorno laboral con acabados de calidad y mínima interrupción."

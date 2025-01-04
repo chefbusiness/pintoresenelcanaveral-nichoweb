@@ -2,7 +2,6 @@ import { Building2, PaintBucket, CheckCircle2, Clock } from 'lucide-react';
 import ServiceDetailHero from '@/components/ServiceDetailHero';
 import { Link } from 'react-router-dom';
 import TestimonialCard from '@/components/TestimonialCard';
-import SEO from '@/components/SEO';
 
 const IndustrialPainting = () => {
   const benefits = [
@@ -37,11 +36,6 @@ const IndustrialPainting = () => {
 
   return (
     <div className="animate-fade-in">
-      <SEO 
-        title="Pintores de Naves Industriales en El Cañaveral"
-        description="Servicios profesionales de pintura para naves industriales en El Cañaveral, Madrid. Soluciones duraderas y de alta calidad para su negocio. Solicite presupuesto sin compromiso."
-      />
-      
       <ServiceDetailHero
         title="Pintores de Naves Industriales en El Cañaveral"
         description="Servicios profesionales de pintura para naves industriales y espacios de gran formato. Soluciones duraderas y de alta calidad para su negocio."
