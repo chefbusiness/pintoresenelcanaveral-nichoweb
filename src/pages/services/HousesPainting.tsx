@@ -2,6 +2,7 @@ import { Home, CheckCircle2 } from 'lucide-react';
 import ServiceDetailHero from '@/components/ServiceDetailHero';
 import { Link } from 'react-router-dom';
 import TestimonialCard from '@/components/TestimonialCard';
+import SEO from '@/components/SEO';
 
 const HousesPainting = () => {
   const benefits = [
@@ -36,6 +37,11 @@ const HousesPainting = () => {
 
   return (
     <div className="animate-fade-in">
+      <SEO 
+        title="Pintores de Viviendas en El Cañaveral"
+        description="Servicios profesionales de pintura para viviendas en El Cañaveral, Madrid. Transformamos su hogar con acabados de calidad superior y atención personalizada. Presupuesto gratuito."
+      />
+      
       <ServiceDetailHero
         title="Pintores de Viviendas en El Cañaveral"
         description="Servicios profesionales de pintura para viviendas. Transformamos su hogar con acabados de calidad superior."

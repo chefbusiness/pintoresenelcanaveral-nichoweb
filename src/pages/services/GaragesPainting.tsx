@@ -2,6 +2,7 @@ import { Warehouse, CheckCircle2, Clock, PaintBucket } from 'lucide-react';
 import ServiceDetailHero from '@/components/ServiceDetailHero';
 import { Link } from 'react-router-dom';
 import TestimonialCard from '@/components/TestimonialCard';
+import SEO from '@/components/SEO';
 
 const GaragesPainting = () => {
   const benefits = [
@@ -36,10 +37,9 @@ const GaragesPainting = () => {
 
   return (
     <div className="animate-fade-in">
-      <ServiceDetailHero
+      <SEO 
         title="Pintores de Garajes en El Cañaveral"
-        description="Especialistas en pintura de garajes comunitarios y particulares. Servicio profesional con los mejores materiales y acabados."
-        Icon={Warehouse}
+        description="Especialistas en pintura de garajes comunitarios y particulares en El Cañaveral, Madrid. Servicio profesional con los mejores materiales y acabados. Solicite presupuesto sin compromiso."
       />
       
       {/* Sección de Servicios Específicos */}

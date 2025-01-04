@@ -2,6 +2,7 @@ import { Building2, CheckCircle2 } from 'lucide-react';
 import ServiceDetailHero from '@/components/ServiceDetailHero';
 import { Link } from 'react-router-dom';
 import TestimonialCard from '@/components/TestimonialCard';
+import SEO from '@/components/SEO';
 
 const RestaurantsPainting = () => {
   const benefits = [
@@ -36,6 +37,11 @@ const RestaurantsPainting = () => {
 
   return (
     <div className="animate-fade-in">
+      <SEO 
+        title="Pintores de Restaurantes en El Cañaveral"
+        description="Servicios profesionales de pintura para restaurantes en El Cañaveral, Madrid. Transformamos su espacio gastronómico con acabados de calidad y mínima interrupción. Solicite presupuesto sin compromiso."
+      />
+      
       <ServiceDetailHero
         title="Pintores de Restaurantes en El Cañaveral"
         description="Servicios profesionales de pintura para restaurantes. Transformamos su espacio gastronómico con acabados de calidad y mínima interrupción."
