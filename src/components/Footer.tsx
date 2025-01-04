@@ -60,7 +60,7 @@ const Footer = () => {
           <p className="flex items-center justify-center gap-2 flex-wrap">
             <span>© {new Date().getFullYear()} Pintores El Cañaveral. Todos los derechos reservados.</span>
             <span className="flex items-center gap-1">
-              Desarrollado con muchos <Coffee size={16} className="inline" /> por{' '}
+              Con <Coffee size={16} className="inline" /> por{' '}
               <a 
                 href="https://localseoads.com" 
                 target="_blank" 
