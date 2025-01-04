@@ -5,12 +5,19 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white pt-12 pb-6">
       <div className="container-custom">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
             <h3 className="text-xl font-semibold mb-4">Pintores El Cañaveral</h3>
             <p className="text-gray-400 mb-4">
               Servicios profesionales de pintura en El Cañaveral, Madrid y alrededores.
             </p>
+          </div>
+          <div>
+            <h3 className="text-xl font-semibold mb-4">Servicios Particulares</h3>
+            <div className="space-y-2 text-gray-400">
+              <p><Link to="/servicios/garajes" className="hover:text-white transition-colors">Pintores de Garajes</Link></p>
+              {/* Aquí irán más enlaces cuando creemos las otras páginas */}
+            </div>
           </div>
           <div>
             <h3 className="text-xl font-semibold mb-4">Contacto</h3>

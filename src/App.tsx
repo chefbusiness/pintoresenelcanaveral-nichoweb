@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Index from "./pages/Index";
 import Servicios from "./pages/Servicios";
 import Contacto from "./pages/Contacto";
+import GaragesPainting from "./pages/services/GaragesPainting";
 
 const queryClient = new QueryClient();
 
@@ -24,6 +25,7 @@ const App = () => (
               <Route path="/" element={<Index />} />
               <Route path="/servicios" element={<Servicios />} />
               <Route path="/contacto" element={<Contacto />} />
+              <Route path="/servicios/garajes" element={<GaragesPainting />} />
             </Routes>
           </main>
           <Footer />
