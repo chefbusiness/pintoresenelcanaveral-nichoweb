@@ -12,9 +12,11 @@ import { useState } from 'react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isServicesOpen, setIsServicesOpen] = useState(false);
 
   const handleLinkClick = () => {
     setIsMenuOpen(false);
+    setIsServicesOpen(false);
   };
 
   return (
@@ -140,44 +142,47 @@ const Header = () => {
             <Link to="/" className="font-medium hover:text-primary transition-colors">
               Inicio
             </Link>
-            <NavigationMenu>
+            <NavigationMenu 
+              value={isServicesOpen ? "open" : undefined}
+              onValueChange={(value) => setIsServicesOpen(value === "open")}
+            >
               <NavigationMenuList>
                 <NavigationMenuItem>
                   <NavigationMenuTrigger>Servicios</NavigationMenuTrigger>
                   <NavigationMenuContent>
                     <ScrollArea className="h-[400px]">
                       <div className="grid w-[400px] gap-3 p-4 bg-white border rounded-lg shadow-lg">
-                        <Link to="/servicios/garajes" className="block p-3 hover:bg-gray-100 rounded-lg">
+                        <Link to="/servicios/garajes" className="block p-3 hover:bg-gray-100 rounded-lg" onClick={handleLinkClick}>
                           Pintores de Garajes
                         </Link>
-                        <Link to="/servicios/fachadas" className="block p-3 hover:bg-gray-100 rounded-lg">
+                        <Link to="/servicios/fachadas" className="block p-3 hover:bg-gray-100 rounded-lg" onClick={handleLinkClick}>
                           Pintores de Fachadas
                         </Link>
-                        <Link to="/servicios/comunidades" className="block p-3 hover:bg-gray-100 rounded-lg">
+                        <Link to="/servicios/comunidades" className="block p-3 hover:bg-gray-100 rounded-lg" onClick={handleLinkClick}>
                           Pintores de Comunidades
                         </Link>
-                        <Link to="/servicios/oficinas" className="block p-3 hover:bg-gray-100 rounded-lg">
+                        <Link to="/servicios/oficinas" className="block p-3 hover:bg-gray-100 rounded-lg" onClick={handleLinkClick}>
                           Pintores de Oficinas
                         </Link>
-                        <Link to="/servicios/locales" className="block p-3 hover:bg-gray-100 rounded-lg">
+                        <Link to="/servicios/locales" className="block p-3 hover:bg-gray-100 rounded-lg" onClick={handleLinkClick}>
                           Pintores de Locales Comerciales
                         </Link>
-                        <Link to="/servicios/naves" className="block p-3 hover:bg-gray-100 rounded-lg">
+                        <Link to="/servicios/naves" className="block p-3 hover:bg-gray-100 rounded-lg" onClick={handleLinkClick}>
                           Pintores de Naves Industriales
                         </Link>
-                        <Link to="/servicios/restaurantes" className="block p-3 hover:bg-gray-100 rounded-lg">
+                        <Link to="/servicios/restaurantes" className="block p-3 hover:bg-gray-100 rounded-lg" onClick={handleLinkClick}>
                           Pintores de Restaurantes
                         </Link>
-                        <Link to="/servicios/pisos" className="block p-3 hover:bg-gray-100 rounded-lg">
+                        <Link to="/servicios/pisos" className="block p-3 hover:bg-gray-100 rounded-lg" onClick={handleLinkClick}>
                           Pintores de Pisos
                         </Link>
-                        <Link to="/servicios/viviendas" className="block p-3 hover:bg-gray-100 rounded-lg">
+                        <Link to="/servicios/viviendas" className="block p-3 hover:bg-gray-100 rounded-lg" onClick={handleLinkClick}>
                           Pintores de Viviendas
                         </Link>
-                        <Link to="/servicios/adosados" className="block p-3 hover:bg-gray-100 rounded-lg">
+                        <Link to="/servicios/adosados" className="block p-3 hover:bg-gray-100 rounded-lg" onClick={handleLinkClick}>
                           Pintores de Adosados
                         </Link>
-                        <Link to="/servicios/chalets" className="block p-3 hover:bg-gray-100 rounded-lg">
+                        <Link to="/servicios/chalets" className="block p-3 hover:bg-gray-100 rounded-lg" onClick={handleLinkClick}>
                           Pintores de Chalets
                         </Link>
                       </div>
