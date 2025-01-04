@@ -82,8 +82,16 @@ const ContactForm = () => {
         >
           <option>Pintura Interior</option>
           <option>Pintura Exterior</option>
+          <option>Pintura de Viviendas</option>
+          <option>Pintura de Chalets</option>
+          <option>Pintura de Apartamentos</option>
+          <option>Pintura de Oficinas</option>
+          <option>Pintura de Restaurantes</option>
+          <option>Pintura de Garajes</option>
+          <option>Pintura de Comunidades</option>
+          <option>Pintura Industrial</option>
+          <option>Pintura Comercial</option>
           <option>Pintura Decorativa</option>
-          <option>Otros servicios</option>
         </select>
       </div>
 
