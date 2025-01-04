@@ -25,6 +25,18 @@ const Contacto = () => {
               <h2 className="text-2xl font-bold mb-6">Información de Contacto</h2>
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
+                  <Phone className="text-primary mt-1" />
+                  <div>
+                    <h3 className="font-semibold">Teléfono</h3>
+                    <a 
+                      href="tel:744717942" 
+                      className="text-2xl font-bold text-primary hover:text-primary-dark transition-colors"
+                    >
+                      744 717 942
+                    </a>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
                   <Mail className="text-primary mt-1" />
                   <div>
                     <h3 className="font-semibold">Email</h3>
