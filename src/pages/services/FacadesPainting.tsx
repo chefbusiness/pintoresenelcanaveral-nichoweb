@@ -29,7 +29,7 @@ const FacadesPainting = () => {
     "provider": {
       "@type": "LocalBusiness",
       "name": "Pintores El Cañaveral",
-      "image": "https://pintoreselcanaveral.com/og-image.png",
+      "image": "https://pintoreselcanaveral.pro/og-image.png",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "El Cañaveral",
@@ -41,14 +41,14 @@ const FacadesPainting = () => {
         "latitude": "40.4378698",
         "longitude": "-3.5797852"
       },
-      "url": "https://pintoreselcanaveral.com",
+      "url": "https://pintoreselcanaveral.pro",
       "telephone": "+34744717942"
     },
     "areaServed": {
       "@type": "City",
       "name": "El Cañaveral"
     },
-    "description": "Especialistas en pintura y rehabilitación de fachadas en El Cañaveral. Mejoramos el aspecto y la protección de tu edificio con acabados profesionales y duraderos.",
+    "description": "Servicio profesional de pintura para fachadas en El Cañaveral. Transformamos su espacio gastronómico con acabados de calidad y mínima interrupción.",
     "serviceType": "Pintura de Fachadas"
   };
 
@@ -62,17 +62,17 @@ const FacadesPainting = () => {
         <meta property="og:title" content="Pintores de Fachadas en El Cañaveral | Pintores El Cañaveral" />
         <meta property="og:description" content="Servicio profesional de pintura de fachadas en El Cañaveral. Especialistas en rehabilitación y mantenimiento de fachadas." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://pintoreselcanaveral.com/servicios/fachadas" />
-        <meta property="og:image" content="https://pintoreselcanaveral.com/og-image.png" />
+        <meta property="og:url" content="https://pintoreselcanaveral.pro/servicios/fachadas" />
+        <meta property="og:image" content="https://pintoreselcanaveral.pro/og-image.png" />
         
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Pintores de Fachadas en El Cañaveral | Pintores El Cañaveral" />
         <meta name="twitter:description" content="Servicio profesional de pintura de fachadas en El Cañaveral. Especialistas en rehabilitación y mantenimiento de fachadas." />
-        <meta name="twitter:image" content="https://pintoreselcanaveral.com/og-image.png" />
+        <meta name="twitter:image" content="https://pintoreselcanaveral.pro/og-image.png" />
         
         {/* Additional SEO tags */}
-        <link rel="canonical" href="https://pintoreselcanaveral.com/servicios/fachadas" />
+        <link rel="canonical" href="https://pintoreselcanaveral.pro/servicios/fachadas" />
         <meta name="robots" content="index, follow" />
         <meta name="geo.region" content="ES-M" />
         <meta name="geo.placename" content="El Cañaveral" />
