@@ -33,8 +33,8 @@ const RestaurantsServices = () => {
           </div>
           <div className="rounded-lg overflow-hidden shadow-lg">
             <img 
-              src="/lovable-uploads/52141531-7a33-4f7d-b834-3b5d9891ac16.png"
-              alt="Interior de restaurante moderno con iluminación y decoración profesional"
+              src="/lovable-uploads/f82a6e9a-7fbe-460f-abc0-74494971c1ce.png"
+              alt="Interior de restaurante moderno con decoración colorida y mesas distribuidas"
               className="w-full h-[400px] object-cover"
             />
           </div>
