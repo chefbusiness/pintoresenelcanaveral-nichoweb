@@ -22,37 +22,37 @@ const MobileMenu = ({ isOpen, onLinkClick }: MobileMenuProps) => {
           </Link>
           <div className="space-y-2">
             <div className="font-medium">Servicios</div>
-            <Link to="/servicios/garajes" className="block pl-4 py-2 hover:text-primary" onClick={onLinkClick}>
+            <Link to="/servicios/pintura-garajes" className="block pl-4 py-2 hover:text-primary" onClick={onLinkClick}>
               Pintores de Garajes
             </Link>
-            <Link to="/servicios/fachadas" className="block pl-4 py-2 hover:text-primary" onClick={onLinkClick}>
+            <Link to="/servicios/pintura-fachadas" className="block pl-4 py-2 hover:text-primary" onClick={onLinkClick}>
               Pintores de Fachadas
             </Link>
-            <Link to="/servicios/comunidades" className="block pl-4 py-2 hover:text-primary" onClick={onLinkClick}>
+            <Link to="/servicios/pintura-comunidades" className="block pl-4 py-2 hover:text-primary" onClick={onLinkClick}>
               Pintores de Comunidades
             </Link>
-            <Link to="/servicios/oficinas" className="block pl-4 py-2 hover:text-primary" onClick={onLinkClick}>
+            <Link to="/servicios/pintura-oficinas" className="block pl-4 py-2 hover:text-primary" onClick={onLinkClick}>
               Pintores de Oficinas
             </Link>
-            <Link to="/servicios/locales" className="block pl-4 py-2 hover:text-primary" onClick={onLinkClick}>
+            <Link to="/servicios/pintura-comercial" className="block pl-4 py-2 hover:text-primary" onClick={onLinkClick}>
               Pintores de Locales Comerciales
             </Link>
-            <Link to="/servicios/naves" className="block pl-4 py-2 hover:text-primary" onClick={onLinkClick}>
+            <Link to="/servicios/pintura-industrial" className="block pl-4 py-2 hover:text-primary" onClick={onLinkClick}>
               Pintores de Naves Industriales
             </Link>
-            <Link to="/servicios/restaurantes" className="block pl-4 py-2 hover:text-primary" onClick={onLinkClick}>
+            <Link to="/servicios/pintura-restaurantes" className="block pl-4 py-2 hover:text-primary" onClick={onLinkClick}>
               Pintores de Restaurantes
             </Link>
-            <Link to="/servicios/pisos" className="block pl-4 py-2 hover:text-primary" onClick={onLinkClick}>
+            <Link to="/servicios/pintura-apartamentos" className="block pl-4 py-2 hover:text-primary" onClick={onLinkClick}>
               Pintores de Pisos
             </Link>
-            <Link to="/servicios/viviendas" className="block pl-4 py-2 hover:text-primary" onClick={onLinkClick}>
+            <Link to="/servicios/pintura-casas" className="block pl-4 py-2 hover:text-primary" onClick={onLinkClick}>
               Pintores de Viviendas
             </Link>
-            <Link to="/servicios/adosados" className="block pl-4 py-2 hover:text-primary" onClick={onLinkClick}>
+            <Link to="/servicios/pintura-adosados" className="block pl-4 py-2 hover:text-primary" onClick={onLinkClick}>
               Pintores de Adosados
             </Link>
-            <Link to="/servicios/chalets" className="block pl-4 py-2 hover:text-primary" onClick={onLinkClick}>
+            <Link to="/servicios/pintura-chalets" className="block pl-4 py-2 hover:text-primary" onClick={onLinkClick}>
               Pintores de Chalets
             </Link>
           </div>
