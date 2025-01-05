@@ -38,7 +38,7 @@ const Index = () => {
         <meta property="og:description" content="Servicios profesionales de pintura en El Cañaveral, Madrid. Especialistas en pintura de interiores, exteriores, fachadas y comunidades." />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="es_ES" />
-        <link rel="canonical" href="https://pintoreselcanaveral.com" />
+        <link rel="canonical" href="https://pintoreselcanaveral.pro" />
         
         {/* Schema.org markup para negocio local */}
         <script type="application/ld+json">
@@ -46,7 +46,7 @@ const Index = () => {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": "Pintores El Cañaveral",
-            "image": "https://pintoreselcanaveral.com/og-image.png",
+            "image": "https://pintoreselcanaveral.pro/og-image.png",
             "description": "Servicios profesionales de pintura en El Cañaveral, Madrid. Especialistas en pintura de interiores, exteriores, fachadas y comunidades.",
             "address": {
               "@type": "PostalAddress",
@@ -60,7 +60,7 @@ const Index = () => {
               "latitude": 40.4378698,
               "longitude": -3.5797773
             },
-            "url": "https://pintoreselcanaveral.com",
+            "url": "https://pintoreselcanaveral.pro",
             "telephone": "+34744717942",
             "priceRange": "€€",
             "openingHoursSpecification": {
@@ -105,7 +105,6 @@ const Index = () => {
         </section>
 
         {/* Galería Section */}
-        {/* Nueva Sección de Galería */}
         <ServiceGallery />
 
         {/* Testimonios Section */}
