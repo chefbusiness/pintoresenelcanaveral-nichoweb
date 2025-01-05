@@ -33,8 +33,8 @@ const IndustrialServices = () => {
           </div>
           <div className="rounded-lg overflow-hidden shadow-lg">
             <img 
-              src="https://images.unsplash.com/photo-1581092160562-40aa08e78837"
-              alt="Pintura industrial profesional"
+              src="/lovable-uploads/8f13a3bf-c228-4378-9821-7c4b6fe7eab3.png"
+              alt="Interior de nave industrial con suelo pintado y puertas industriales"
               className="w-full h-[400px] object-cover"
             />
           </div>
