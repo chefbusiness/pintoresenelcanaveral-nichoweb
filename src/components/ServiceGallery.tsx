@@ -8,8 +8,8 @@ const ServiceGallery = () => {
           <div className="relative group">
             <div className="overflow-hidden rounded-2xl shadow-lg">
               <img
-                src="https://images.unsplash.com/photo-1487958449943-2429e8be8625"
-                alt="Pintura interior profesional"
+                src="/lovable-uploads/5d2e5339-5ae4-4381-ace3-9c3894cdfd1a.png"
+                alt="Pintura interior profesional - Pintores trabajando en una pared naranja"
                 className="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-300"
               />
             </div>
@@ -25,8 +25,8 @@ const ServiceGallery = () => {
           <div className="relative group">
             <div className="overflow-hidden rounded-2xl shadow-lg">
               <img
-                src="https://images.unsplash.com/photo-1518005020951-eccb494ad742"
-                alt="Pintura exterior profesional"
+                src="/lovable-uploads/f15c4fe9-5ea9-420e-ad9d-13db818c047a.png"
+                alt="Pintura exterior profesional - Pintores trabajando en una fachada"
                 className="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-300"
               />
             </div>
@@ -42,8 +42,8 @@ const ServiceGallery = () => {
           <div className="relative group">
             <div className="overflow-hidden rounded-2xl shadow-lg">
               <img
-                src="https://images.unsplash.com/photo-1496307653780-42ee777d4833"
-                alt="Pintura decorativa"
+                src="/lovable-uploads/137cc4d5-1385-4c29-848c-8fde28cd1bf9.png"
+                alt="Pintura decorativa - Muestras de color y herramientas de pintura"
                 className="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-300"
               />
             </div>
