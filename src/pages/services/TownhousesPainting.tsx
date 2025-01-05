@@ -11,26 +11,26 @@ const TownhousesPainting = () => {
       description: "Amplia experiencia en pintura de casas adosadas"
     },
     {
-      title: "Coordinación Vecinal",
-      description: "Gestión eficiente con comunidades de vecinos"
+      title: "Servicio Integral",
+      description: "Atención personalizada y servicio completo"
     },
     {
-      title: "Acabados Uniformes",
-      description: "Consistencia en acabados entre viviendas"
+      title: "Acabados Premium",
+      description: "Materiales de alta calidad y acabados duraderos"
     }
   ];
 
   const testimonials = [
     {
-      name: "Roberto Fernández",
+      name: "Ana García",
       rating: 5,
-      text: "Excelente trabajo en la pintura de nuestro adosado. Perfecta coordinación con los vecinos.",
+      text: "Excelente trabajo en la pintura de nuestro adosado. El equipo fue muy profesional y detallista.",
       service: "Pintura de Adosado"
     },
     {
-      name: "Isabel Martín",
+      name: "Carlos Martínez",
       rating: 5,
-      text: "Muy satisfechos con el resultado. El equipo fue muy profesional y respetuoso.",
+      text: "Transformaron por completo nuestro adosado. El resultado superó nuestras expectativas.",
       service: "Renovación de Adosado"
     }
   ];
@@ -42,7 +42,7 @@ const TownhousesPainting = () => {
     "provider": {
       "@type": "LocalBusiness",
       "name": "Pintores El Cañaveral",
-      "image": "https://pintoreselcanaveral.com/og-image.png",
+      "image": "https://pintoreselcanaveral.pro/og-image.png",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "El Cañaveral",
@@ -54,14 +54,14 @@ const TownhousesPainting = () => {
         "latitude": "40.4378698",
         "longitude": "-3.5797852"
       },
-      "url": "https://pintoreselcanaveral.com",
+      "url": "https://pintoreselcanaveral.pro",
       "telephone": "+34744717942"
     },
     "areaServed": {
       "@type": "City",
       "name": "El Cañaveral"
     },
-    "description": "Servicio profesional de pintura para adosados en El Cañaveral. Especialistas en coordinación vecinal y acabados uniformes.",
+    "description": "Servicio profesional de pintura para adosados en El Cañaveral. Transformamos su hogar con acabados de calidad y atención personalizada.",
     "serviceType": "Pintura de Adosados"
   };
 
@@ -69,23 +69,23 @@ const TownhousesPainting = () => {
     <div className="animate-fade-in">
       <Helmet>
         <title>Pintores de Adosados en El Cañaveral | Pintores El Cañaveral</title>
-        <meta name="description" content="Servicio profesional de pintura para adosados en El Cañaveral. Especialistas en coordinación vecinal y acabados uniformes. Solicite presupuesto sin compromiso." />
+        <meta name="description" content="Servicio profesional de pintura para adosados en El Cañaveral. Transformamos su hogar con acabados de calidad y atención personalizada. Solicite presupuesto sin compromiso." />
         
         {/* Open Graph */}
         <meta property="og:title" content="Pintores de Adosados en El Cañaveral | Pintores El Cañaveral" />
-        <meta property="og:description" content="Servicio profesional de pintura para adosados en El Cañaveral. Especialistas en coordinación vecinal y acabados uniformes." />
+        <meta property="og:description" content="Servicio profesional de pintura para adosados en El Cañaveral. Transformamos su hogar con acabados de calidad y atención personalizada." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://pintoreselcanaveral.com/servicios/adosados" />
-        <meta property="og:image" content="https://pintoreselcanaveral.com/og-image.png" />
+        <meta property="og:url" content="https://pintoreselcanaveral.pro/servicios/pintura-adosados" />
+        <meta property="og:image" content="https://pintoreselcanaveral.pro/og-image.png" />
         
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Pintores de Adosados en El Cañaveral | Pintores El Cañaveral" />
-        <meta name="twitter:description" content="Servicio profesional de pintura para adosados en El Cañaveral. Especialistas en coordinación vecinal y acabados uniformes." />
-        <meta name="twitter:image" content="https://pintoreselcanaveral.com/og-image.png" />
+        <meta name="twitter:description" content="Servicio profesional de pintura para adosados en El Cañaveral. Transformamos su hogar con acabados de calidad y atención personalizada." />
+        <meta name="twitter:image" content="https://pintoreselcanaveral.pro/og-image.png" />
         
         {/* Additional SEO tags */}
-        <link rel="canonical" href="https://pintoreselcanaveral.com/servicios/adosados" />
+        <link rel="canonical" href="https://pintoreselcanaveral.pro/servicios/pintura-adosados" />
         <meta name="robots" content="index, follow" />
         <meta name="geo.region" content="ES-M" />
         <meta name="geo.placename" content="El Cañaveral" />
@@ -100,7 +100,7 @@ const TownhousesPainting = () => {
 
       <ServiceDetailHero
         title="Pintores de Adosados en El Cañaveral"
-        description="Servicios profesionales de pintura para casas adosadas. Coordinación eficiente y acabados uniformes."
+        description="Servicios profesionales de pintura para adosados. Transformamos su hogar con acabados de calidad superior."
         Icon={Home}
       />
       
