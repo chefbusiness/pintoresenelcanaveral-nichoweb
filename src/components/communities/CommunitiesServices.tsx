@@ -1,0 +1,47 @@
+import { PaintBucket } from 'lucide-react';
+import { Link } from 'react-router-dom';
+
+const CommunitiesServices = () => {
+  return (
+    <section className="py-16 bg-white">
+      <div className="container-custom">
+        <h2 className="section-title text-center">Nuestros Servicios para Comunidades</h2>
+        <div className="grid md:grid-cols-2 gap-8 mt-12">
+          <div className="space-y-6">
+            <h3 className="text-2xl font-semibold">Servicios Incluidos</h3>
+            <ul className="space-y-4">
+              <li className="flex items-center gap-3">
+                <PaintBucket className="text-primary h-6 w-6" />
+                <span>Pintura de zonas comunes</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <PaintBucket className="text-primary h-6 w-6" />
+                <span>Pintura de escaleras y pasillos</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <PaintBucket className="text-primary h-6 w-6" />
+                <span>Pintura de portales</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <PaintBucket className="text-primary h-6 w-6" />
+                <span>Pintura de garajes comunitarios</span>
+              </li>
+            </ul>
+            <Link to="/contacto" className="btn-primary inline-block mt-4">
+              Solicitar Presupuesto
+            </Link>
+          </div>
+          <div className="rounded-lg overflow-hidden shadow-lg">
+            <img 
+              src="/lovable-uploads/be0a5f07-bd30-40a2-8262-41678e8b0294.png"
+              alt="Pintura de comunidades profesional - Pintor trabajando"
+              className="w-full h-[400px] object-cover"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default CommunitiesServices;
