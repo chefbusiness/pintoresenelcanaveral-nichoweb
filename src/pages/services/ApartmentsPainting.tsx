@@ -42,7 +42,7 @@ const ApartmentsPainting = () => {
     "provider": {
       "@type": "LocalBusiness",
       "name": "Pintores El Cañaveral",
-      "image": "https://pintoreselcanaveral.com/og-image.png",
+      "image": "https://pintoreselcanaveral.pro/og-image.png",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "El Cañaveral",
@@ -54,7 +54,7 @@ const ApartmentsPainting = () => {
         "latitude": "40.4378698",
         "longitude": "-3.5797852"
       },
-      "url": "https://pintoreselcanaveral.com",
+      "url": "https://pintoreselcanaveral.pro",
       "telephone": "+34744717942"
     },
     "areaServed": {
@@ -70,29 +70,12 @@ const ApartmentsPainting = () => {
       <Helmet>
         <title>Pintores de Pisos en El Cañaveral | Pintores El Cañaveral</title>
         <meta name="description" content="Servicio profesional de pintura para pisos en El Cañaveral. Transformamos su hogar con acabados de calidad y atención personalizada. Solicite presupuesto sin compromiso." />
-        
-        {/* Open Graph */}
         <meta property="og:title" content="Pintores de Pisos en El Cañaveral | Pintores El Cañaveral" />
         <meta property="og:description" content="Servicio profesional de pintura para pisos en El Cañaveral. Transformamos su hogar con acabados de calidad y atención personalizada." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://pintoreselcanaveral.com/servicios/pisos" />
-        <meta property="og:image" content="https://pintoreselcanaveral.com/og-image.png" />
-        
-        {/* Twitter Card */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Pintores de Pisos en El Cañaveral | Pintores El Cañaveral" />
-        <meta name="twitter:description" content="Servicio profesional de pintura para pisos en El Cañaveral. Transformamos su hogar con acabados de calidad y atención personalizada." />
-        <meta name="twitter:image" content="https://pintoreselcanaveral.com/og-image.png" />
-        
-        {/* Additional SEO tags */}
-        <link rel="canonical" href="https://pintoreselcanaveral.com/servicios/pisos" />
-        <meta name="robots" content="index, follow" />
-        <meta name="geo.region" content="ES-M" />
-        <meta name="geo.placename" content="El Cañaveral" />
-        <meta name="geo.position" content="40.4378698;-3.5797852" />
-        <meta name="ICBM" content="40.4378698, -3.5797852" />
-        
-        {/* Schema.org structured data */}
+        <meta property="og:url" content="https://pintoreselcanaveral.pro/servicios/pisos" />
+        <meta property="og:image" content="https://pintoreselcanaveral.pro/og-image.png" />
+        <link rel="canonical" href="https://pintoreselcanaveral.pro/servicios/pisos" />
         <script type="application/ld+json">
           {JSON.stringify(schemaData)}
         </script>

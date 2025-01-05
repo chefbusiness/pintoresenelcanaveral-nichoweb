@@ -17,7 +17,7 @@ const Servicios = () => {
         <meta property="og:description" content="Descubre nuestros servicios profesionales de pintura en El Cañaveral. Especialistas en pintura interior, exterior y decorativa." />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="es_ES" />
-        <link rel="canonical" href="https://pintoreselcanaveral.com/servicios" />
+        <link rel="canonical" href="https://pintoreselcanaveral.pro/servicios" />
         
         {/* Schema.org markup para página de servicios */}
         <script type="application/ld+json">
@@ -39,7 +39,7 @@ const Servicios = () => {
             "provider": {
               "@type": "LocalBusiness",
               "name": "Pintores El Cañaveral",
-              "image": "https://pintoreselcanaveral.com/og-image.png",
+              "image": "https://pintoreselcanaveral.pro/og-image.png",
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "El Cañaveral",
@@ -52,7 +52,7 @@ const Servicios = () => {
                 "latitude": 40.4378698,
                 "longitude": -3.5797773
               },
-              "url": "https://pintoreselcanaveral.com",
+              "url": "https://pintoreselcanaveral.pro",
               "telephone": "+34744717942"
             },
             "hasOfferCatalog": {
@@ -85,6 +85,7 @@ const Servicios = () => {
           })}
         </script>
       </Helmet>
+
       <div className="animate-fade-in">
         <ServicesHero />
         

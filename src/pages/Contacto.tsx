@@ -22,7 +22,7 @@ const Contacto = () => {
         />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="es_ES" />
-        <link rel="canonical" href="https://pintoreselcanaveral.com/contacto" />
+        <link rel="canonical" href="https://pintoreselcanaveral.pro/contacto" />
 
         {/* Schema.org markup para página de contacto */}
         <script type="application/ld+json">
@@ -31,13 +31,13 @@ const Contacto = () => {
             "@type": "ContactPage",
             "name": "Contacto Pintores El Cañaveral",
             "description": "Página de contacto para servicios de pintura en El Cañaveral",
-            "url": "https://pintoreselcanaveral.com/contacto",
+            "url": "https://pintoreselcanaveral.pro/contacto",
             "mainEntity": {
               "@type": "LocalBusiness",
               "name": "Pintores El Cañaveral",
-              "image": "https://pintoreselcanaveral.com/og-image.png",
+              "image": "https://pintoreselcanaveral.pro/og-image.png",
               "telephone": "+34744717942",
-              "email": "info@pintoreselcanaveral.com",
+              "email": "info@pintoreselcanaveral.pro",
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "El Cañaveral",
