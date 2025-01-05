@@ -40,7 +40,7 @@ const OfficeSEO = () => {
       <meta property="og:title" content="Pintores de Oficinas en El Cañaveral | Pintores El Cañaveral" />
       <meta property="og:description" content="Servicio profesional de pintura para oficinas en El Cañaveral. Trabajamos en horarios flexibles para minimizar interrupciones en su actividad." />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://pintoreselcanaveral.pro/servicios/oficinas" />
+      <meta property="og:url" content="https://pintoreselcanaveral.pro/servicios/pintura-oficinas" />
       <meta property="og:image" content="https://pintoreselcanaveral.pro/og-image.png" />
       
       {/* Twitter Card */}
@@ -50,7 +50,7 @@ const OfficeSEO = () => {
       <meta name="twitter:image" content="https://pintoreselcanaveral.pro/og-image.png" />
       
       {/* Additional SEO tags */}
-      <link rel="canonical" href="https://pintoreselcanaveral.pro/servicios/oficinas" />
+      <link rel="canonical" href="https://pintoreselcanaveral.pro/servicios/pintura-oficinas" />
       <meta name="robots" content="index, follow" />
       <meta name="geo.region" content="ES-M" />
       <meta name="geo.placename" content="El Cañaveral" />
