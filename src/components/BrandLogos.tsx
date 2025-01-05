@@ -4,27 +4,27 @@ const BrandLogos = () => {
   const brands = [
     {
       name: "Titanlux",
-      logo: "https://www.titanlux.es/wp-content/themes/titan/assets/images/logo-titan.svg",
+      logo: "https://www.pinturas-online.com/blog/wp-content/uploads/2019/07/titan-logo.png",
       alt: "Logo Titanlux"
     },
     {
       name: "Valentine",
-      logo: "https://www.valentine.es/wp-content/themes/valentine/images/logo.svg",
+      logo: "https://www.valentine.es/wp-content/uploads/2018/03/logo-valentine.png",
       alt: "Logo Valentine"
     },
     {
       name: "Bruguer",
-      logo: "https://www.bruguer.es/content/dam/akzonobel-flourish/bruguer/spain/logos/bruguer-logo.png",
+      logo: "https://www.bruguer.es/content/dam/akzonobel-flourish/bruguer/spain/bruguer-logo.png",
       alt: "Logo Bruguer"
     },
     {
       name: "Jotun",
-      logo: "https://www.jotun.com/images/jotun-logo-default.svg",
+      logo: "https://www.jotun.com/images/jotun-logo.png",
       alt: "Logo Jotun"
     },
     {
       name: "Procolor",
-      logo: "https://www.procolor.es/wp-content/themes/procolor/images/logo.svg",
+      logo: "https://www.procolor.es/wp-content/uploads/2018/03/logo-procolor.png",
       alt: "Logo Procolor"
     }
   ];
