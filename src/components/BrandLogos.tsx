@@ -4,28 +4,28 @@ const BrandLogos = () => {
   const brands = [
     {
       name: "Titanlux",
-      logo: "https://www.pinturas-online.com/blog/wp-content/uploads/2019/07/titan-logo.png",
+      logo: "/lovable-uploads/0fc7644c-a266-485e-821e-2982531d6328.png",
       alt: "Logo Titanlux"
     },
     {
-      name: "Valentine",
-      logo: "https://www.valentine.es/wp-content/uploads/2018/03/logo-valentine.png",
-      alt: "Logo Valentine"
+      name: "Hempel",
+      logo: "/lovable-uploads/6439d25b-78ac-4c4a-aa26-cff43370827b.png",
+      alt: "Logo Hempel"
     },
     {
       name: "Bruguer",
-      logo: "https://www.bruguer.es/content/dam/akzonobel-flourish/bruguer/spain/bruguer-logo.png",
+      logo: "/lovable-uploads/5ad84870-d34e-4b87-8844-e1dbbb2db449.png",
       alt: "Logo Bruguer"
     },
     {
-      name: "Jotun",
-      logo: "https://www.jotun.com/images/jotun-logo.png",
-      alt: "Logo Jotun"
+      name: "Procolor",
+      logo: "/lovable-uploads/6a2463e1-8ac6-4646-9c9a-d0ff8674f43f.png",
+      alt: "Logo Procolor"
     },
     {
-      name: "Procolor",
-      logo: "https://www.procolor.es/wp-content/uploads/2018/03/logo-procolor.png",
-      alt: "Logo Procolor"
+      name: "Guadiel",
+      logo: "/lovable-uploads/a7e6c81d-7b20-466a-a9db-c32373541bf4.png",
+      alt: "Logo Guadiel"
     }
   ];
 
