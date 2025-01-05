@@ -2,6 +2,7 @@ import { Home } from 'lucide-react';
 import { Helmet } from 'react-helmet-async';
 import ServiceDetailHero from '@/components/ServiceDetailHero';
 import HousesBenefits from '@/components/houses/HousesBenefits';
+import HousesServices from '@/components/houses/HousesServices';
 import HousesTestimonials from '@/components/houses/HousesTestimonials';
 import HousesCTA from '@/components/houses/HousesCTA';
 
@@ -58,6 +59,7 @@ const HousesPainting = () => {
         Icon={Home}
       />
       
+      <HousesServices />
       <HousesBenefits />
       <HousesTestimonials />
       <HousesCTA />
