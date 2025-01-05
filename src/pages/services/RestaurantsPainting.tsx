@@ -12,7 +12,7 @@ const RestaurantsPainting = () => {
     "provider": {
       "@type": "LocalBusiness",
       "name": "Pintores El Cañaveral",
-      "image": "https://pintoreselcanaveral.com/og-image.png",
+      "image": "https://pintoreselcanaveral.pro/og-image.png",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "El Cañaveral",
@@ -24,7 +24,7 @@ const RestaurantsPainting = () => {
         "latitude": "40.4378698",
         "longitude": "-3.5797852"
       },
-      "url": "https://pintoreselcanaveral.com",
+      "url": "https://pintoreselcanaveral.pro",
       "telephone": "+34744717942"
     },
     "areaServed": {
@@ -43,13 +43,13 @@ const RestaurantsPainting = () => {
         <meta property="og:title" content="Pintores de Restaurantes en El Cañaveral | Pintores El Cañaveral" />
         <meta property="og:description" content="Servicio profesional de pintura para restaurantes en El Cañaveral. Transformamos su espacio gastronómico con acabados de calidad y mínima interrupción." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://pintoreselcanaveral.com/servicios/restaurantes" />
-        <meta property="og:image" content="https://pintoreselcanaveral.com/og-image.png" />
+        <meta property="og:url" content="https://pintoreselcanaveral.pro/servicios/restaurantes" />
+        <meta property="og:image" content="https://pintoreselcanaveral.pro/og-image.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Pintores de Restaurantes en El Cañaveral | Pintores El Cañaveral" />
         <meta name="twitter:description" content="Servicio profesional de pintura para restaurantes en El Cañaveral. Transformamos su espacio gastronómico con acabados de calidad y mínima interrupción." />
-        <meta name="twitter:image" content="https://pintoreselcanaveral.com/og-image.png" />
-        <link rel="canonical" href="https://pintoreselcanaveral.com/servicios/restaurantes" />
+        <meta name="twitter:image" content="https://pintoreselcanaveral.pro/og-image.png" />
+        <link rel="canonical" href="https://pintoreselcanaveral.pro/servicios/restaurantes" />
         <meta name="robots" content="index, follow" />
         <meta name="geo.region" content="ES-M" />
         <meta name="geo.placename" content="El Cañaveral" />
