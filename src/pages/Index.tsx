@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet-async';
 import ServiceList from '@/components/ServiceList';
 import ServiceGallery from '@/components/ServiceGallery';
 import TestimonialCard from '@/components/TestimonialCard';
+import BrandLogos from '@/components/BrandLogos';
 
 const Index = () => {
   const testimonials = [
@@ -103,6 +104,7 @@ const Index = () => {
           </div>
         </section>
 
+        {/* Galería Section */}
         {/* Nueva Sección de Galería */}
         <ServiceGallery />
 
@@ -152,6 +154,9 @@ const Index = () => {
             </div>
           </div>
         </section>
+
+        {/* Marcas Section */}
+        <BrandLogos />
 
         {/* CTA Section */}
         <section className="bg-primary text-white py-16">
