@@ -1,40 +1,11 @@
 import { Home, CheckCircle2 } from 'lucide-react';
 import ServiceDetailHero from '@/components/ServiceDetailHero';
+import TownhousesServices from '@/components/townhouses/TownhousesServices';
 import { Link } from 'react-router-dom';
 import TestimonialCard from '@/components/TestimonialCard';
 import { Helmet } from 'react-helmet-async';
 
 const TownhousesPainting = () => {
-  const benefits = [
-    {
-      title: "Experiencia en Adosados",
-      description: "Amplia experiencia en pintura de casas adosadas"
-    },
-    {
-      title: "Servicio Integral",
-      description: "Atención personalizada y servicio completo"
-    },
-    {
-      title: "Acabados Premium",
-      description: "Materiales de alta calidad y acabados duraderos"
-    }
-  ];
-
-  const testimonials = [
-    {
-      name: "Ana García",
-      rating: 5,
-      text: "Excelente trabajo en la pintura de nuestro adosado. El equipo fue muy profesional y detallista.",
-      service: "Pintura de Adosado"
-    },
-    {
-      name: "Carlos Martínez",
-      rating: 5,
-      text: "Transformaron por completo nuestro adosado. El resultado superó nuestras expectativas.",
-      service: "Renovación de Adosado"
-    }
-  ];
-
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -65,34 +36,47 @@ const TownhousesPainting = () => {
     "serviceType": "Pintura de Adosados"
   };
 
+  const benefits = [
+    {
+      title: "Experiencia en Adosados",
+      description: "Amplia experiencia en pintura de casas adosadas"
+    },
+    {
+      title: "Servicio Integral",
+      description: "Atención personalizada y servicio completo"
+    },
+    {
+      title: "Acabados Premium",
+      description: "Materiales de alta calidad y acabados duraderos"
+    }
+  ];
+
+  const testimonials = [
+    {
+      name: "Ana García",
+      rating: 5,
+      text: "Excelente trabajo en la pintura de nuestro adosado. El equipo fue muy profesional y detallista.",
+      service: "Pintura de Adosado"
+    },
+    {
+      name: "Carlos Martínez",
+      rating: 5,
+      text: "Transformaron por completo nuestro adosado. El resultado superó nuestras expectativas.",
+      service: "Renovación de Adosado"
+    }
+  ];
+
   return (
     <div className="animate-fade-in">
       <Helmet>
         <title>Pintores de Adosados en El Cañaveral | Pintores El Cañaveral</title>
         <meta name="description" content="Servicio profesional de pintura para adosados en El Cañaveral. Transformamos su hogar con acabados de calidad y atención personalizada. Solicite presupuesto sin compromiso." />
-        
-        {/* Open Graph */}
         <meta property="og:title" content="Pintores de Adosados en El Cañaveral | Pintores El Cañaveral" />
         <meta property="og:description" content="Servicio profesional de pintura para adosados en El Cañaveral. Transformamos su hogar con acabados de calidad y atención personalizada." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://pintoreselcanaveral.pro/servicios/pintura-adosados" />
         <meta property="og:image" content="https://pintoreselcanaveral.pro/og-image.png" />
-        
-        {/* Twitter Card */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Pintores de Adosados en El Cañaveral | Pintores El Cañaveral" />
-        <meta name="twitter:description" content="Servicio profesional de pintura para adosados en El Cañaveral. Transformamos su hogar con acabados de calidad y atención personalizada." />
-        <meta name="twitter:image" content="https://pintoreselcanaveral.pro/og-image.png" />
-        
-        {/* Additional SEO tags */}
         <link rel="canonical" href="https://pintoreselcanaveral.pro/servicios/pintura-adosados" />
-        <meta name="robots" content="index, follow" />
-        <meta name="geo.region" content="ES-M" />
-        <meta name="geo.placename" content="El Cañaveral" />
-        <meta name="geo.position" content="40.4378698;-3.5797852" />
-        <meta name="ICBM" content="40.4378698, -3.5797852" />
-        
-        {/* Schema.org structured data */}
         <script type="application/ld+json">
           {JSON.stringify(schemaData)}
         </script>
@@ -103,6 +87,8 @@ const TownhousesPainting = () => {
         description="Servicios profesionales de pintura para adosados. Transformamos su hogar con acabados de calidad superior."
         Icon={Home}
       />
+      
+      <TownhousesServices />
       
       {/* Beneficios */}
       <section className="py-16 bg-white">

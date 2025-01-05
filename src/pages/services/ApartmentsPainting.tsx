@@ -1,5 +1,6 @@
 import { Home, CheckCircle2 } from 'lucide-react';
 import ServiceDetailHero from '@/components/ServiceDetailHero';
+import ApartmentsServices from '@/components/apartments/ApartmentsServices';
 import { Link } from 'react-router-dom';
 import TestimonialCard from '@/components/TestimonialCard';
 import { Helmet } from 'react-helmet-async';
@@ -86,6 +87,8 @@ const ApartmentsPainting = () => {
         description="Servicios profesionales de pintura para pisos y apartamentos. Transformamos su hogar con acabados de calidad."
         Icon={Home}
       />
+      
+      <ApartmentsServices />
       
       {/* Beneficios */}
       <section className="py-16 bg-white">
