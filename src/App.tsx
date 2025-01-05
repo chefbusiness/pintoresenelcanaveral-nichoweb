@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
+import { HelmetProvider } from 'react-helmet-async';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import WhatsAppButton from "./components/WhatsAppButton";
@@ -22,7 +23,7 @@ import VillasPainting from "./pages/services/VillasPainting";
 
 function App() {
   return (
-    <>
+    <HelmetProvider>
       <Toaster />
       <Sonner />
       <BrowserRouter basename="/">
@@ -51,7 +52,7 @@ function App() {
           <WhatsAppButton />
         </div>
       </BrowserRouter>
-    </>
+    </HelmetProvider>
   );
 }
 
