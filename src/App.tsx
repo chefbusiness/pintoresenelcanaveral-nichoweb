@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from 'react-helmet-async';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import WhatsAppButton from "./components/WhatsAppButton";
 import Index from "./pages/Index";
 import Servicios from "./pages/Servicios";
 import Contacto from "./pages/Contacto";
@@ -51,6 +52,7 @@ const App = () => (
               </Routes>
             </main>
             <Footer />
+            <WhatsAppButton />
           </div>
         </BrowserRouter>
       </TooltipProvider>
