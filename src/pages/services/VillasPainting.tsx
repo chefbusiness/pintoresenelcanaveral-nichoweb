@@ -8,29 +8,29 @@ const VillasPainting = () => {
   const benefits = [
     {
       title: "Experiencia en Chalets",
-      description: "Amplia experiencia en pintura de chalets y villas"
+      description: "Amplia experiencia en pintura de chalets"
     },
     {
-      title: "Servicio Premium",
-      description: "Atención personalizada y acabados de lujo"
+      title: "Servicio Integral",
+      description: "Atención personalizada y servicio completo"
     },
     {
-      title: "Proyecto Integral",
-      description: "Gestión completa del proyecto de principio a fin"
+      title: "Acabados Premium",
+      description: "Materiales de alta calidad y acabados duraderos"
     }
   ];
 
   const testimonials = [
     {
-      name: "Francisco Torres",
+      name: "Carlos Martínez",
       rating: 5,
-      text: "Excelente trabajo en la pintura de nuestro chalet. El equipo fue muy profesional y detallista.",
+      text: "Excelente trabajo en la pintura de mi chalet. El equipo fue muy profesional y detallista.",
       service: "Pintura de Chalet"
     },
     {
-      name: "Elena Navarro",
+      name: "Ana García",
       rating: 5,
-      text: "Transformaron por completo nuestra villa. El resultado es espectacular.",
+      text: "Transformaron por completo nuestro chalet. El resultado superó nuestras expectativas.",
       service: "Renovación de Chalet"
     }
   ];
@@ -42,7 +42,7 @@ const VillasPainting = () => {
     "provider": {
       "@type": "LocalBusiness",
       "name": "Pintores El Cañaveral",
-      "image": "https://pintoreselcanaveral.com/og-image.png",
+      "image": "https://pintoreselcanaveral.pro/og-image.png",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "El Cañaveral",
@@ -54,14 +54,14 @@ const VillasPainting = () => {
         "latitude": "40.4378698",
         "longitude": "-3.5797852"
       },
-      "url": "https://pintoreselcanaveral.com",
+      "url": "https://pintoreselcanaveral.pro",
       "telephone": "+34744717942"
     },
     "areaServed": {
       "@type": "City",
       "name": "El Cañaveral"
     },
-    "description": "Servicio profesional de pintura para chalets en El Cañaveral. Acabados premium y atención personalizada.",
+    "description": "Servicio profesional de pintura para chalets en El Cañaveral. Transformamos su hogar con acabados de calidad y atención personalizada.",
     "serviceType": "Pintura de Chalets"
   };
 
@@ -69,23 +69,23 @@ const VillasPainting = () => {
     <div className="animate-fade-in">
       <Helmet>
         <title>Pintores de Chalets en El Cañaveral | Pintores El Cañaveral</title>
-        <meta name="description" content="Servicio profesional de pintura para chalets en El Cañaveral. Acabados premium y atención personalizada. Solicite presupuesto sin compromiso." />
+        <meta name="description" content="Servicio profesional de pintura para chalets en El Cañaveral. Transformamos su hogar con acabados de calidad y atención personalizada. Solicite presupuesto sin compromiso." />
         
         {/* Open Graph */}
         <meta property="og:title" content="Pintores de Chalets en El Cañaveral | Pintores El Cañaveral" />
-        <meta property="og:description" content="Servicio profesional de pintura para chalets en El Cañaveral. Acabados premium y atención personalizada." />
+        <meta property="og:description" content="Servicio profesional de pintura para chalets en El Cañaveral. Transformamos su hogar con acabados de calidad y atención personalizada." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://pintoreselcanaveral.com/servicios/chalets" />
-        <meta property="og:image" content="https://pintoreselcanaveral.com/og-image.png" />
+        <meta property="og:url" content="https://pintoreselcanaveral.pro/servicios/pintura-chalets" />
+        <meta property="og:image" content="https://pintoreselcanaveral.pro/og-image.png" />
         
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Pintores de Chalets en El Cañaveral | Pintores El Cañaveral" />
-        <meta name="twitter:description" content="Servicio profesional de pintura para chalets en El Cañaveral. Acabados premium y atención personalizada." />
-        <meta name="twitter:image" content="https://pintoreselcanaveral.com/og-image.png" />
+        <meta name="twitter:description" content="Servicio profesional de pintura para chalets en El Cañaveral. Transformamos su hogar con acabados de calidad y atención personalizada." />
+        <meta name="twitter:image" content="https://pintoreselcanaveral.pro/og-image.png" />
         
         {/* Additional SEO tags */}
-        <link rel="canonical" href="https://pintoreselcanaveral.com/servicios/chalets" />
+        <link rel="canonical" href="https://pintoreselcanaveral.pro/servicios/pintura-chalets" />
         <meta name="robots" content="index, follow" />
         <meta name="geo.region" content="ES-M" />
         <meta name="geo.placename" content="El Cañaveral" />
@@ -100,7 +100,7 @@ const VillasPainting = () => {
 
       <ServiceDetailHero
         title="Pintores de Chalets en El Cañaveral"
-        description="Servicios profesionales de pintura para chalets y villas. Acabados premium y atención personalizada."
+        description="Servicios profesionales de pintura para chalets. Transformamos su hogar con acabados de calidad superior."
         Icon={Home}
       />
       
