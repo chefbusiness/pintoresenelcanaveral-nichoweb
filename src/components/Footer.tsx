@@ -45,7 +45,7 @@ const Footer = () => {
               <p><Link to="/contacto" className="hover:text-white transition-colors">Contacto</Link></p>
               <p>
                 <a 
-                  href="https://blog.pintoreselcanaveral.com" 
+                  href="https://blog.pintoreselcanaveral.pro" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors"

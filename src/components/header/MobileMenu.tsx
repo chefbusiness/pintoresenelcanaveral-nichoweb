@@ -57,7 +57,7 @@ const MobileMenu = ({ isOpen, onLinkClick }: MobileMenuProps) => {
             </Link>
           </div>
           <a 
-            href="https://blog.pintoreselcanaveral.com" 
+            href="https://blog.pintoreselcanaveral.pro" 
             target="_blank" 
             rel="noopener noreferrer"
             className="block font-medium hover:text-primary transition-colors"

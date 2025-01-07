@@ -43,7 +43,7 @@ const Header = () => {
               onLinkClick={handleLinkClick}
             />
             <a 
-              href="https://blog.pintoreselcanaveral.com" 
+              href="https://blog.pintoreselcanaveral.pro" 
               target="_blank" 
               rel="noopener noreferrer"
               className="font-medium hover:text-primary transition-colors"
